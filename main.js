@@ -21,11 +21,11 @@ app.get("/", (req, res) => {
 /*
 ROUTERS
 */
-app.use("/", authRouter)
-app.use("/", eventRouter)
-app.use("/", galleryRouter)    
-app.use("/", productRouter)
-app.use("/", orderRouter)
+app.use("/api", authRouter)
+app.use("/api", eventRouter)
+app.use("/api", galleryRouter)
+app.use("/api", productRouter)
+app.use("/api", orderRouter)
 
 /*
 SERVER
